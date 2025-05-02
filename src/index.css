@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@layer theme, base, components, utilities;
+@theme {
+  --font-main: [ "main", "sans-serif"];
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+@font-face {
+  font-family: "main";
+  src: url("../src/assets/Raleway/static/Raleway-Regular.ttf");
+}
